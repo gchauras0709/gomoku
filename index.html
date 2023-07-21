@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gomoku</title>
+    <script type="module" src="app.ts" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="header">Gomoku</div>
+    <section id="configure">
+        <button class="reset">Reset</button>
+        <label for="Size">Size</label>
+        <select name="size" id="size">
+          <option value="15">15 &times; 15</option>
+          <option value="14">14 &times; 14</option>
+          <option value="13">13 &times; 13</option>
+          <option value="12">12 &times; 12</option>
+          <option value="11">11 &times; 11</option>
+          <option value="10">10 &times; 10</option>
+          <option value="9">9 &times; 9</option>
+          <option value="8">8 &times;8</option>
+          <option value="7">7 &times; 7</option>
+          <option value="6">6 &times; 6</option>
+          <option value="5">5 &times; 5</option>
+        </select>
+    </section>
+    <div class="board"></div>
+    <p class="info">Game start</p>
+  </body>
+</html>
