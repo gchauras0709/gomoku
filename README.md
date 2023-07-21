@@ -1,1 +1,2 @@
 # GOMOKU GAME IN TYPESCRIPT
+# Description
